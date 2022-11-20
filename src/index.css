@@ -3,3 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #1c1f25;
+  color: white;
+  font-family: "Comfortaa", cursive;
+}
