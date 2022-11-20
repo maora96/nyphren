@@ -20,7 +20,7 @@ export default function Dropdown({
       {submenus?.map((submenu: Submenu, index: number) => {
         return (
           <li key={index} className={styles["menu-item"]}>
-            <a href={submenu.url}>{submenu.title}</a>
+            <a href={`fiction/${submenu.url}`}>{submenu.title}</a>
           </li>
         );
       })}
