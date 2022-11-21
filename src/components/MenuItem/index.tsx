@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { Menu } from "../../types";
 import Dropdown from "../Dropdown";
 import styles from "./styles.module.scss";
@@ -10,7 +9,6 @@ interface IMenuItem {
 
 export default function MenuItem({ item }: IMenuItem) {
   const [dropdown, setDropdown] = useState(false);
-  const navigate = useNavigate();
   return (
     <li className={styles["menu-item"]}>
       {item.submenus ? (
@@ -20,7 +18,6 @@ export default function MenuItem({ item }: IMenuItem) {
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
             onMouseEnter={() => setDropdown((prev: boolean) => !prev)}
-            onClick={() => navigate(`${item.url}`)}
           >
             {item.title}
           </button>
