@@ -11,3 +11,17 @@
     text-align: center;
   }
 }
+.links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  strong {
+    color: #b2e667;
+    text-transform: uppercase;
+  }
+}
+
+.icon {
+  color: #b2e667;
+}
