@@ -1,11 +1,13 @@
-import Placeholder from "../../assets/circle.png";
 import styles from "./styles.module.scss";
 
 export default function ReleaseCard() {
   return (
     <div className={styles.card}>
       <div className={styles["card-image"]}>
-        <img src={Placeholder} alt="last release: briarheart" />
+        <img
+          src="https://i.postimg.cc/rw3cL2qj/Group-6.png"
+          alt="last release: briarheart"
+        />
       </div>
 
       <h3>Last release</h3>

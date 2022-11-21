@@ -6,7 +6,9 @@ import styles from "./styles.module.scss";
 export default function Header() {
   return (
     <header className={styles.container}>
-      <h1>nyphren</h1>
+      <a href="/">
+        <h1>nyphren</h1>
+      </a>
       <nav>
         <ul className={styles.menu}>
           {menuItems?.map((menu: Menu, index: number) => {

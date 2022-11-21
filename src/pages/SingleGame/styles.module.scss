@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  h2 {
+    font-family: "Satisfy", cursive;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+
+  a {
+    color: #b2e667;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+  }
+}
+
+.game {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.8em;
+  letter-spacing: 0.02em;
+  text-rendering: optimizeLegibility;
+}
+
+.gallery {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  img {
+    height: 200px;
+  }
+}
