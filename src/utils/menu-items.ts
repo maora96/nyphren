@@ -5,7 +5,7 @@ export const menuItems = [
     submenus: [
       {
         title: "short stories",
-        url: "short-stories",
+        url: "/fiction/short-stories",
       },
     ],
   },
@@ -15,11 +15,11 @@ export const menuItems = [
     submenus: [
       {
         title: "the hanging heart",
-        url: "the-hanging-heart",
+        url: "/games/the-hanging-heart",
       },
       {
         title: "briarheart",
-        url: "briarheart",
+        url: "/games/briarheart",
       },
     ],
   },
@@ -28,12 +28,8 @@ export const menuItems = [
     url: "/webdev",
     submenus: [
       {
-        title: "is that book queer website",
-        url: "is-that-book-queer",
-      },
-      {
-        title: "the aroace database",
-        url: "aroace-db",
+        title: "projects",
+        url: "/webdev/projects",
       },
     ],
   },
