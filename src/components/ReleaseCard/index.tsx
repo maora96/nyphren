@@ -5,7 +5,7 @@ export default function ReleaseCard() {
     <div className={styles.card}>
       <div className={styles["card-image"]}>
         <img
-          src="https://i.postimg.cc/rw3cL2qj/Group-6.png"
+          src="https://i.postimg.cc/5txpP6CF/Group-6-2.png"
           alt="last release: briarheart"
         />
       </div>
