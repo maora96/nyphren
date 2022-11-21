@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card-image {
+  border: 1px solid #b2e667;
+  padding: 1rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+  }
+
+  p {
+    text-align: justify;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.8em;
+    letter-spacing: 0.02em;
+    text-rendering: optimizeLegibility;
+  }
+
+  strong {
+    color: #b2e667;
+  }
+}
+
+.tags {
+  :first-child {
+    margin-left: 0;
+    color: #b2e667;
+  }
+
+  span {
+    margin-left: 1rem;
+    color: #7a7a7a;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+
+  a {
+    color: #b2e667;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+  }
+}
